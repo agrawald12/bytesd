@@ -1,6 +1,10 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
 
+.header {
+padding: 20px;
+}
+
 .login {
     width: 500px;
     padding: 10% 0 0;
@@ -33,7 +37,7 @@
       font-family: "Lato", sans-serif;
       text-transform: uppercase;
       outline: 0;
-      background: #262725;
+      background:maroon;
       width: 100%;
       border: 0;
       padding: 15px;
