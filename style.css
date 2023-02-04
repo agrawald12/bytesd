@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  section {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: lightgray;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label, input, select, textarea {
+    margin: 10px 0;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    border: 1px solid lightgray;
+  }
+  
+  input[type="submit"] {
+    background-color: lightgray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: gray;
+  }
+  
